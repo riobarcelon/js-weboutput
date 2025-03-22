@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript 1</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Javascript Web Output #1</h1>
+    <table>
+        <tr>
+            <td>
+                <label for="">Insert any Positive Numbers:</label>
+            </td>
+            <td>
+                <input type="text" id="txtNum">
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <button id="btn1">Insert</button>
+                <button id="btn2">Clear</button>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <fieldset>
+        <legend>Inserted Numbers</legend>
+        <table id="tblNumbers">
+        </table>
+    </fieldset>
+
+    <button id="btn3" style="margin-top: 10px; display: none;">Clear Items</button>
+    <button id="btn4" style="margin-top: 10px; display: none;">Get Total</button>
+    <button id="btnIdentify" style="margin-top: 10px; display: none;">Identify Highest and Lowest Number</button>
+    <button id="btnIdentify" style="display: none;">Identify Highest and Lowest Number</button>
+    <label for="dropdownMenu" style="display: none;">Sort by:</label>
+    <select id="dropdownMenu" style="display: none;">
+        <option value="" disabled>Please select</option>
+        <option value="asc">Ascending</option>
+        <option value="desc">Descending</option>
+    </select>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
